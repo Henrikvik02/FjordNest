@@ -1,0 +1,114 @@
+@model FjordNestPro.Models.ApplicationUser
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+@section Styles {
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #004d7a;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        h4 {
+            color: #0066c0;
+            font-size: 1.8em;
+            margin-top: 20px;
+            border-bottom: 1px solid #e5e5e5;
+            padding-bottom: 10px;
+        }
+
+        dl.row {
+            background-color: #f8f9fa;
+            border: 1px solid #e5e5e5;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        dt.col-sm-2 {
+            font-weight: bold;
+            color: #555;
+            padding: 8px 0;
+        }
+
+        dd.col-sm-10 {
+            padding: 8px 0;
+            border-top: 1px solid #e5e5e5;
+        }
+
+            dd.col-sm-10:first-child {
+                border-top: none;
+            }
+
+        a {
+            color: #0066c0;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+    </style>
+}
+
+
+<h1>User</h1>
+
+<div>
+    <h4>Delete</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.UserName)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PasswordHash)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UserName)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PhoneNumber)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Properties)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Bookings)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Reviews)
+        </dd>
+    </dl>
+
+    @if (!string.IsNullOrEmpty(ViewBag.WarningMessage))
+    {
+        <div class="alert alert-warning">
+            @ViewBag.WarningMessage
+        </div>
+    }
+
+    <h4>@Model.UserName</h4>
+    <hr />
+
+    <form asp-action="DeleteConfirmed" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Cancel</a>
+    </form>
+
+</div>

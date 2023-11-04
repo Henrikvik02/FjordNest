@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    bool isAdmin = ViewData["IsAdmin"] as bool? ?? false;
+    bool isAdminPath = ViewData["IsAdminPath"] as bool? ?? false;
+}
+
+@if (isAdmin)
+{
+    if (isAdminPath)
+    {
+        <a asp-area="" asp-controller="Home" asp-action="Index">Go to Home</a>
+    }
+    else
+    {
+        <a asp-area="Admin" asp-controller="Admin" asp-action="Index">Admin Dashboard</a>
+    }
+}
+<div class="intro-text">
+    <h2>Welcome to FjordNest</h2>
+    <p>
+        Your exclusive haven for luxury real estate experience.
+    </p>
+    <p>
+        Explore our carefully curated selection of luxury properties, from charming mountain cabins to exclusive beach villas. With a passion for the extraordinary and a commitment to unsurpassed quality, FjordNest is your ultimate destination for luxury rentals and rentals.
+    </p>
+    <p>Let us take you on an unforgettable journey, where each property is a treasure waiting to be discovered. Welcome to FjordNest, where luxury becomes a lifestyle.</p>
+</div>
+
+<a asp-controller="Property" asp-action="Create"><div id="listing" class="nest-button">Want to rent out your home?</div></a>
+
+
+
+

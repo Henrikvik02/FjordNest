@@ -1,0 +1,132 @@
+﻿<body>
+
+    <style type="text/css">
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .box-container {
+            text-align: center;
+        }
+
+        .box {
+            width: 400px;
+            height: 200px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            line-height: 200px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .text {
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px 20%; /* Adjust the right margin to control the starting point */
+            text-align: left;
+            list-style-type: circle;
+            display: inline-block; /* Necessary for horizontal centering */
+        }
+
+            /* Style for the hover effect */
+            .box:hover {
+                background-color: #2980b9;
+            }
+
+        /* Style for the FAQ questions */
+        .faq-question {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 24px;
+            border: 1px solid #ccc; /* Add a border */
+            border-radius: 10px; /* Add rounded borders */
+            padding: 10px;
+            margin: 5px;
+        }
+
+
+        /* Style for hidden FAQ answers */
+        .faq-answer {
+            display: none;
+            font-size: 24px;
+            padding: 10px;
+            margin: 5px;
+        }
+    </style>
+    <div id="tabletextstyle">
+    <h1>
+        Often asked Questions
+    </h1>
+
+    <section class="faq-section">
+            <div class="faq-question" onclick="toggleAnswer(1)">How do I create a user?</div>
+            <div class="faq-answer" id="answer1">To create a user, click on the 'Register' button and follow the instructions.</div>
+
+            <div class="faq-question" onclick="toggleAnswer(2)">What payment methods do you accept?</div>
+            <div class="faq-answer" id="answer2">We accept Visa, MasterCard, and bank transfer.</div>
+
+            <div class="faq-question" onclick="toggleAnswer(3)">How can I list a property?</div>
+            <div class="faq-answer" id="answer3">After you have logged in, click on 'Want to rent out your home?' and fill in the necessary information.</div>
+
+            <div class="faq-question" onclick="toggleAnswer(4)">How do I create an account?</div>
+            <div class="faq-answer" id="answer4">To create an account, click on the 'Register' button and follow the prompts.</div>
+    </section>
+
+    <script>
+        function toggleAnswer(questionNumber) {
+            var answer = document.getElementById("answer" + questionNumber);
+            if (answer.style.display === "none" || answer.style.display === "") {
+                answer.style.display = "block";
+            } else {
+                answer.style.display = "none";
+            }
+        }
+    </script>
+
+        <h1>General Rules</h1>
+        <div class="text">
+            <p>
+                <b>Respect the surrounding area:</b> We expect all guests to respect the neighborhood rules and the people living there.
+                This includes curfews, quiet times, and trash disposal/sorting.
+            </p>
+            <p>
+                <b>Respect the reservation agreement:</b> Guests must adhere to the rules set during the reservation, as long as they do not conflict with Fjordnet's terms. This includes arrival and departure times, allowed pets, smoking, and other host rules.
+            </p>
+            <p>
+                <b>Access to private belongings:</b> Guests are not allowed to access areas or touch belongings that are clearly marked as private, or that are locked.
+            </p>
+            <p>
+                <b>Payment:</b> Guests should pay the correct amount on time. The host should not add additional charges beyond what is listed in the ad. Unless the guest damages or breaks items or property. In which case, the guest and host can agree on an additional payment, or contact Fjordnet about the issue.
+            </p>
+            <p>
+                <b>Cancellation of the reservation:</b> When a reservation is cancelled, you will receive an email with all the details. Processing time after cancelling a reservation may vary based on your method of payment. Please contact us if you need assistance.
+            </p>
+            <p>
+                <b>Safety:</b> We expect both guests and hosts to comply with health and safety laws, and security requirements.
+            </p>
+            <p>
+                <b>Dangerous or illegal animals:</b> If the breed or animal is either dangerous or illegal to own, this must be disclosed and the animal must be kept under control.
+            </p>
+            <p>
+                <b>Weapons:</b> Weapons on the property, whether illegal or not, must be disclosed in advance and secured. If the host has weapons on the property, they must be made inaccessible to the guest.
+            </p>
+            <p>
+                <b>Accurate information:</b> When filling out the forms, all information should be genuine, honest, and accurate. Forged documents or identity are not allowed.
+            </p>
+        </div>
+    <div class="box-container">
+            <h2>Not finding what you're looking for?</h2>
+            <a class="box" asp-area="" asp-controller="Question" asp-action="Create">Send question here</a>
+        <a class="box" asp-area="" asp-controller="Question" asp-action="QuestionList">Questions list</a>
+    </div>
+    </div>
+</body>

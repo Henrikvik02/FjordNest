@@ -1,0 +1,136 @@
+@model IEnumerable<FjordNestPro.Models.Booking>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@section Styles {
+    <style>
+        h1 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        form {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        input[type="date"],
+        input[type="submit"] {
+            padding: 5px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+            input[type="submit"]:hover {
+                background-color: #0056b3;
+            }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+            a:hover {
+                color: #0056b3;
+            }
+    </style>
+}
+
+
+<h1>Index</h1>
+
+<form method="get" asp-action="Index" asp-controller="Booking" asp-area="Admin">
+    User ID: <input type="text" name="userId" />
+    Property ID: <input type="number" name="propertyId" />
+    Check-In Date: <input type="date" name="checkInDate" />
+    Check-Out Date: <input type="date" name="checkOutDate" />
+    <input type="submit" value="Filter" />
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Property.AddressID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckInDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CheckOutDate)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @if (item.User != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.User.Id)
+                    }
+                    else
+                    {
+                        @: N/A
+                    }
+                </td>
+                <td>
+                    @if (item.Property != null)
+                    {
+                        @Html.DisplayFor(modelItem => item.Property.AddressID)
+                    }
+                    else
+                    {
+                        @: N/A
+                    }
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckInDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CheckOutDate)
+                </td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Booking" asp-action="Details" asp-route-id="@item.BookingID">Details</a> |
+                    <a asp-area="Admin" asp-controller="Booking" asp-action="Delete" asp-route-id="@item.BookingID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

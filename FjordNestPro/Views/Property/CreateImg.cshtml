@@ -1,0 +1,14 @@
+@model FjordNestPro.Models.Property
+
+@{
+    ViewData["Title"] = "ImgAdd";
+}
+
+<div class="form-group">
+    <<h1 class="display-4">Add a picture to your Property for people to see!</h1>
+
+    <form method="post" asp-controller="Property" asp-action="CreateImg" enctype="multipart/form-data">
+        <input type="file" name="imageFile" accept="image/*">
+        <button type="submit">Add Image</button>
+    </form>
+</div>

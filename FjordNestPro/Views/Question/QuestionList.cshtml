@@ -1,0 +1,56 @@
+﻿@model IEnumerable<FjordNestPro.Models.Question>
+
+@{
+    ViewData["Title"] = "QuistonList";
+}
+
+<div id="tabletextstyle">
+    <h1>All questions</h1>
+</div>
+
+<p>
+    <a asp-action="Create" id="tabletextstyle">Create New</a>
+</p>
+<div class="card">
+<table class="table" id="tabletextstyle">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Content)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ImageUrl)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnswerContent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AnswerImageUrl)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Content)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ImageUrl)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnswerContent)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AnswerImageUrl)
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.QuestionID">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+</div>

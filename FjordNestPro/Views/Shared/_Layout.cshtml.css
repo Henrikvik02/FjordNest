@@ -1,0 +1,85 @@
+﻿body {
+    font-family: 'Roboto', sans-serif; /* Endret skrifttype */
+    background-color: #f6f6f6; /* Bakgrunnsfarge for litt kontrast */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#logo img {
+    max-width: 200px;
+    height: auto;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #484848;
+    transition: color 0.3s; /* Legg til overgang for en jevn fargeendring */
+}
+
+    nav a:hover {
+        color: #95cdf8; /* Hover-farge for lenker */
+    }
+
+
+#auth a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #484848;
+}
+
+    #auth a:hover {
+        color: #95cdf8; /* Hover-farge for lenker i #auth */
+    }
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    nav {
+        margin-top: 10px;
+    }
+
+        nav a {
+            margin: 0 5px;
+        }
+
+    #auth {
+        margin-top: 10px;
+    }
+
+        #auth a {
+            margin-left: 5px;
+        }
+
+    .search-bar {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #logo {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 14px;
+    }
+
+    #listing, #auth a {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}

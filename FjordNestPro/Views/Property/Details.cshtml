@@ -1,0 +1,56 @@
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="wwwroot/js/site.js"></script>
+
+@model FjordNestPro.ViewModels.PropertyDetailsViewModel
+
+@{
+    ViewData["Title"] = "Detaljer";
+}
+
+<div class="property-details-container">
+
+    <div class="property-image">
+        <div class="card">
+            <img src="@Url.Content("/"+ Model.ImageUrl)" class="card-img-top" alt="Picture of @Model.Title">
+        </div>
+    </div>
+
+    <div class="property-text">
+
+        <h2>@Model.Title</h2> <!-- Adding the title here -->
+        <p><strong>Type:</strong> @Model.PropertyType</p> <!-- Adding the property type -->
+        <p><strong>PricePerNight:</strong> @Model.PricePerNight kr</p> <!-- Adding the price per night -->
+        <p><strong>Max Guests:</strong> @Model.MaxGuests</p> <!-- Adding the maximum number of guests -->
+        <p><strong>LongTermStay:</strong> @(Model.LongTermStay ? "Yes" : "No")</p> <!-- Indicates if long-term stays are allowed -->
+
+
+        <p class="text-color">@Model.Description</p>
+
+        <div class="address-container">
+            <h2>Address</h2>
+            <p><strong>Street:</strong> @Model.Address.StreetName</p>
+            <p><strong>City:</strong> @Model.Address.City</p>
+            <p><strong>PO:</strong> @Model.Address.Postcode</p>
+
+            <div class="action-buttons">
+                <a href="@Url.Action("Create", "Booking")" class="button bestill">Book now</a>
+                <button id="showReviewsButton" class="button anmeldelser">Reviews</button>
+            </div>
+
+            <div class="reviewsBox" style="display:none;">
+                @if (Model.Reviews != null && Model.Reviews.Any())
+                {
+                    foreach (var review in Model.Reviews)
+                    {
+                        <p class="review-content">@review.Content</p>
+                        <p class="review-rating">Rating: @review.Rating</p>
+                    }
+                }
+                else
+                {
+                    <p>No reviews yet.</p>
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,130 @@
+﻿@model FjordNestPro.Areas.Admin.ViewModels.AddressIndexViewModel
+
+@{
+    ViewData["Title"] = "Addresses";
+}
+
+@section Styles {
+    <style>
+        h1 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        p a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        form {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            width: 150px;
+            padding: 5px;
+            margin-right: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        select {
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+            a:hover {
+                color: #0056b3;
+            }
+    </style>
+}
+
+
+<h1>Addresses</h1>
+
+<p>
+    <a asp-area="Admin" asp-controller="Address" asp-action="Create">Create New</a>
+</p>
+
+<form asp-area="Admin" asp-controller="Address" asp-action="Index" method="get">
+    City: <input type="text" name="citySearchString" value="@Model.CitySearchString" />
+    Postal Code: <input type="text" name="postalCodeSearchString" value="@Model.PostalCodeSearchString" />
+    <select asp-for="FilterType" asp-items="Model.FilterOptions"></select>
+    <input type="submit" value="Search" />
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            @if (Model.Addresses.Any())
+            {
+                <th>
+                    @Html.DisplayNameFor(model => model.Addresses[0].StreetName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Addresses[0].City)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Addresses[0].Postcode)
+                </th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var Address in Model.Addresses)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => Address.StreetName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Address.City)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => Address.Postcode)
+                </td>
+                <td>
+                    <a asp-area="Admin" asp-controller="Address" asp-action="Edit" asp-route-id="@Address.AddressID">Edit</a>
+                    <a asp-area="Admin" asp-controller="Address" asp-action="Details" asp-route-id="@Address.AddressID">Details</a>
+                    <a asp-area="Admin" asp-controller="Address" asp-action="Delete" asp-route-id="@Address.AddressID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

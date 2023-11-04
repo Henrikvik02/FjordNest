@@ -1,0 +1,41 @@
+@using Microsoft.AspNetCore.Identity
+@using FjordNestPro.Models
+
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @if (SignInManager.IsSignedIn(User))
+    {
+        
+        <li class="auth">
+            <div id="auth">
+       
+            <a id="manage" class="nav-link" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+        
+        
+            <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                    <button id="tabletextstyle" id="logout" type="submit" class="nav-link btn btn-link border-0">Logout</button>
+            </form>
+        
+        </div>
+        </li>
+        
+    }
+    else
+    {
+        <li class="auth">
+            <div id="auth">
+                <a asp-area="Identity" asp-page="/Account/Login">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 14C15.3137 14 18 11.3137 18 8C18 4.68629 15.3137 2 12 2C8.68629 2 6 4.68629 6 8C6 11.3137 8.68629 14 12 14Z" fill="currentColor"></path>
+                        <path d="M4 22V20C4 17.7909 7.58172 16 12 16C16.4183 16 20 17.7909 20 20V22" fill="currentColor"></path>
+                    </svg>
+                    Log in
+                </a>
+                <a asp-area="Identity" asp-page="/Account/Register">Register</a>
+            </div>
+        </li>
+
+    }
+</ul>

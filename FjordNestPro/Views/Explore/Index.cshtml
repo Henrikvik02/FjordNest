@@ -1,0 +1,20 @@
+﻿<div class="row">
+    @foreach (var property in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card">
+                <img src="@property.ImageUrl" class="card-img-top" alt="Picture of @property.Title">
+                <div class="card-body">
+                    <h5 class="card-title">@property.Title</h5>
+                    <p class="card-text">Price Per Night: @property.PricePerNight kr</p>
+                    <p class="card-text">Max Guests: @property.MaxGuests</p>
+                    @if (property.Address != null)
+                    {
+                        <p class="card-text">Adresse: @property.Address.StreetName, @property.Address.City, @property.Address.Postcode</p>
+                    }
+                    <a href="@Url.Action("Details", "Property", new { id = property.PropertyID })" class="btn btn-primary">Details</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>

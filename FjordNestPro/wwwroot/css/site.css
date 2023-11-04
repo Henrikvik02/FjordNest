@@ -1,0 +1,351 @@
+﻿.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+
+main {
+    flex: 1;
+    margin-top: 100px; /* Juster denne verdien basert på høyden av din header. */
+    padding-bottom: 150px;
+}
+
+.container {
+    margin-bottom: 100px; /* Juster denne verdien etter behov */
+}
+
+footer {
+    margin-top: 50px; /* Juster denne verdien etter behov */
+}
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000bd;
+    background-image: url('/images/Fjord.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center 50px;
+    background-attachment: fixed;
+}
+
+
+    body::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.3);
+        z-index: -1;
+    }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #252525;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0; /* Headeren er synlig ved start */
+    width: 100%;
+    transition: top 0.3s; /* Glatte animasjonen */
+    z-index: 1000; /* Sørg for at headeren vises foran andre elementer */
+}
+
+
+.review-text {
+    color: #ffffff;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.reviewsBox .review-text:last-child {
+    border-bottom: none;
+}
+
+.reviewsBox {
+    position: absolute; /* Gjør boksen plassert absolutt i forhold til den nærmeste relativt posisjonerte forfader */
+    top: -40px; /* Juster denne verdien for å flytte boksen opp eller ned */
+    right: 0;
+    max-height: 200px;
+    overflow-y: auto;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 300px;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.7) rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+    /* Tilpasset scrollbar for Chrome, Edge og andre Webkit-nettlesere */
+    .reviewsBox::-webkit-scrollbar {
+        width: 6px;
+    }
+
+    .reviewsBox::-webkit-scrollbar-track {
+        background: rgba(0, 0, 0, 0.2);
+    }
+
+    .reviewsBox::-webkit-scrollbar-thumb {
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 20px;
+        border: 3px solid transparent;
+    }
+
+        .reviewsBox::-webkit-scrollbar-thumb:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+
+
+.intro-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+    .intro-text h2 {
+        margin-top: 0;
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .intro-text p {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+        line-height: 1.5;
+    }
+
+
+#logo img {
+    height: 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+    nav a {
+        text-decoration: none;
+        color: #fffbfb;
+        font-weight: 700;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        transition: color 0.3s;
+    }
+
+        nav a:hover {
+            color: #555;
+        }
+
+#listing {
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    transition: background-color 0.3s;
+}
+
+    #listing:hover {
+        background-color: #555;
+    }
+
+#auth a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: color 0.3s;
+}
+
+    #auth a:hover {
+        color: #555;
+    }
+
+    #auth a svg {
+        fill: #ffffff;
+    }
+
+.nest-button {
+    display: block;
+    width: fit-content;
+    margin: 500px auto 0;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .nest-button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+.detaljer-button {
+    display: block;
+    width: fit-content;
+    margin: 40px auto 0;
+    padding: 10px 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .detaljer-button:hover {
+        background-color: #fff;
+        color: #000;
+    }
+
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+
+.property-details-container {
+    display: flex;
+    align-items: start;
+    gap: 20px;
+}
+
+.property-image {
+    flex: 1;
+    max-width: 33%;
+}
+
+.property-text {
+    color: white;
+    flex: 2;
+}
+
+.text-color {
+    color: white;
+}
+
+
+.auth #auth {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+    .auth #auth a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        padding: 5px 10px;
+    }
+
+        .auth #auth a:hover {
+            background-color: rgba(0, 0, 0, 0.1);
+            border-radius: 4px;
+        }
+
+    .auth #auth svg {
+        fill: currentColor;
+    }
+
+.address-container {
+    position: relative;
+}
+
+.action-buttons {
+    position: absolute;
+    top: -150px; /* Juster denne verdien til det som passer best */
+    right: 0; /* Dette vil plassere knappene til høyre i containeren */
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/* Universell stil for begge knappene */
+.button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+}
+
+    .button:hover {
+        opacity: 0.8;
+    }
+
+    /* Individuell farge for hver knapp */
+    .button.bestill {
+        background-color: blue;
+        color: #fff;
+    }
+
+    .button.anmeldelser {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        border-color: #fff;
+    }
+
+
+        .button.anmeldelser:hover {
+            background-color: #fff;
+            color: #000;
+        }
+#tabletextstyle{
+    color:white;
+}

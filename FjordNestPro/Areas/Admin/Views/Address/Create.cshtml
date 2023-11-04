@@ -1,0 +1,96 @@
+@model FjordNestPro.Models.Address
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@section Styles {
+    <style>
+        h1, h4 {
+            font-family: 'Arial', sans-serif;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .text-danger {
+            color: #ff4b5c;
+        }
+
+        .form-group {
+            background-color: #f5f5f5;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .form-control {
+            color: #333;
+        }
+
+        .control-label {
+            font-size: 16px;
+        }
+
+        .text-danger {
+            color: #ff4b5c;
+            font-size: 14px;
+        }
+
+        .col-md-4 form {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+
+        a {
+            color: #007bff;
+        }
+
+            a:hover {
+                color: #0056b3;
+            }
+    </style>
+}
+
+
+<h1>Address</h1>
+
+<h4>Create</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-area="Admin" asp-controller="Address" asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="StreetName" class="control-label"></label>
+                <input asp-for="StreetName" class="form-control" />
+                <span asp-validation-for="StreetName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="City" class="control-label"></label>
+                <input asp-for="City" class="form-control" />
+                <span asp-validation-for="City" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Postcode" class="control-label"></label>
+                <input asp-for="Postcode" class="form-control" />
+                <span asp-validation-for="Postcode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-area="Admin" asp-controller="Address" asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
