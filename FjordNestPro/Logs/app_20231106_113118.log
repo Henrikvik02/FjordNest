@@ -1,0 +1,144 @@
+2023-11-06 11:31:18.870 +01:00 [INF] User profile is available. Using '/Users/henrik_vik/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-06 11:31:22.275 +01:00 [INF] Now listening on: https://localhost:7060
+2023-11-06 11:31:22.296 +01:00 [INF] Now listening on: http://localhost:5035
+2023-11-06 11:31:22.362 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-06 11:31:22.366 +01:00 [INF] Hosting environment: Development
+2023-11-06 11:31:22.370 +01:00 [INF] Content root path: /Users/henrik_vik/Projects/FjordNest/FjordNestPro
+2023-11-06 11:31:23.775 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/ - -
+2023-11-06 11:31:23.967 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:31:23.978 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-06 11:31:24.018 +01:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FjordNestPro.Controllers.HomeController (FjordNestPro).
+2023-11-06 11:31:24.136 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-06 11:31:24.440 +01:00 [INF] Executed ViewResult - view Index executed in 321.0975ms.
+2023-11-06 11:31:24.444 +01:00 [INF] Executed action FjordNestPro.Controllers.HomeController.Index (FjordNestPro) in 425.0064ms
+2023-11-06 11:31:24.445 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-06 11:31:24.453 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/ - - - 200 - text/html;+charset=utf-8 685.0168ms
+2023-11-06 11:31:24.682 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/css/bootstrap.min.css - -
+2023-11-06 11:31:24.682 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/css/site.css?v=v_Pq3ljq9f9NNbt9PAowScIuN5P9sF6bFdlybMZmeQ8 - -
+2023-11-06 11:31:24.774 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/FjordNestPro.styles.css?v=5Tpqsgstn_cDRuDhj8wmkfhqVu_RCJ2iKAZ2kcPtGAo - -
+2023-11-06 11:31:24.856 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-06 11:31:24.902 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-06 11:31:24.902 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-06 11:31:24.911 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:31:24.911 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:31:24.911 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:31:24.913 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 56.8768ms
+2023-11-06 11:31:24.913 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 10.6250ms
+2023-11-06 11:31:24.913 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 10.9395ms
+2023-11-06 11:31:24.935 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/fjordnest-high-resolution-logo-white-transparent.png - -
+2023-11-06 11:31:24.935 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/dist/jquery.min.js - -
+2023-11-06 11:31:24.936 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - -
+2023-11-06 11:31:25.042 +01:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/css/site.css'
+2023-11-06 11:31:25.042 +01:00 [INF] Sending file. Request path: '/images/fjordnest-high-resolution-logo-white-transparent.png'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/fjordnest-high-resolution-logo-white-transparent.png'
+2023-11-06 11:31:25.042 +01:00 [INF] Sending file. Request path: '/FjordNestPro.styles.css'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/obj/Debug/net7.0/scopedcss/bundle/FjordNestPro.styles.css'
+2023-11-06 11:31:25.043 +01:00 [INF] Sending file. Request path: '/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js'
+2023-11-06 11:31:25.043 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/fjordnest-high-resolution-logo-white-transparent.png - - - 200 28151 image/png 107.6988ms
+2023-11-06 11:31:25.044 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/css/site.css?v=v_Pq3ljq9f9NNbt9PAowScIuN5P9sF6bFdlybMZmeQ8 - - - 200 6759 text/css 402.7875ms
+2023-11-06 11:31:25.090 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/FjordNestPro.styles.css?v=5Tpqsgstn_cDRuDhj8wmkfhqVu_RCJ2iKAZ2kcPtGAo - - - 200 2177 text/css 270.7199ms
+2023-11-06 11:31:25.090 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js - - - 200 19389 text/javascript 108.2211ms
+2023-11-06 11:31:25.134 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2023-11-06 11:31:25.140 +01:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery/dist/jquery.min.js'
+2023-11-06 11:31:25.141 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/dist/jquery.min.js - - - 200 89501 text/javascript 205.3274ms
+2023-11-06 11:31:25.141 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js'
+2023-11-06 11:31:25.174 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 text/javascript 39.8207ms
+2023-11-06 11:31:25.174 +01:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css'
+2023-11-06 11:31:25.175 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/js/site.js?v=GVfrJwP9dyBEOTWWL5R7z2rTE1yLZrGdTM_sHV07zS4 - -
+2023-11-06 11:31:25.175 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 533.9463ms
+2023-11-06 11:31:25.219 +01:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/js/site.js'
+2023-11-06 11:31:25.219 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/js/site.js?v=GVfrJwP9dyBEOTWWL5R7z2rTE1yLZrGdTM_sHV07zS4 - - - 200 1041 text/javascript 44.8413ms
+2023-11-06 11:31:25.228 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/Fjord.jpg - -
+2023-11-06 11:31:25.368 +01:00 [INF] Sending file. Request path: '/images/Fjord.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/Fjord.jpg'
+2023-11-06 11:31:25.368 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/Fjord.jpg - - - 200 2624941 image/jpeg 140.0692ms
+2023-11-06 11:32:00.169 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Explore - -
+2023-11-06 11:32:00.178 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:32:00.178 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.ExploreController.Index (FjordNestPro)'
+2023-11-06 11:32:00.202 +01:00 [INF] Route matched with {action = "Index", controller = "Explore", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, Int32, System.Decimal) on controller FjordNestPro.Controllers.ExploreController (FjordNestPro).
+2023-11-06 11:32:00.930 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-06 11:32:01.275 +01:00 [INF] Executed ViewResult - view Index executed in 348.8485ms.
+2023-11-06 11:32:01.275 +01:00 [INF] Executed action FjordNestPro.Controllers.ExploreController.Index (FjordNestPro) in 1073.2268ms
+2023-11-06 11:32:01.276 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.ExploreController.Index (FjordNestPro)'
+2023-11-06 11:32:01.285 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Explore - - - 200 - text/html;+charset=utf-8 1116.6849ms
+2023-11-06 11:32:01.340 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-06 11:32:01.341 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:32:01.341 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 1.2086ms
+2023-11-06 11:32:01.350 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-06 11:32:01.351 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:32:01.351 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.9376ms
+2023-11-06 11:32:01.352 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-06 11:32:01.407 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/2.jpg - -
+2023-11-06 11:32:01.407 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/1.jpg - -
+2023-11-06 11:32:01.411 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-06 11:32:01.433 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 80.9483ms
+2023-11-06 11:32:01.467 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/4.jpg - -
+2023-11-06 11:32:01.467 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/5.jpg - -
+2023-11-06 11:32:01.467 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/6.jpg - -
+2023-11-06 11:32:01.467 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/3.jpg - -
+2023-11-06 11:32:01.474 +01:00 [INF] Sending file. Request path: '/images/property/2.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/2.jpg'
+2023-11-06 11:32:01.474 +01:00 [INF] Sending file. Request path: '/images/property/1.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/1.jpg'
+2023-11-06 11:32:01.474 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/2.jpg - - - 200 33404 image/jpeg 67.5443ms
+2023-11-06 11:32:01.474 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/1.jpg - - - 200 47818 image/jpeg 67.6591ms
+2023-11-06 11:32:01.524 +01:00 [INF] Sending file. Request path: '/images/property/3.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/3.jpg'
+2023-11-06 11:32:01.524 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/3.jpg - - - 200 26931 image/jpeg 57.1808ms
+2023-11-06 11:32:01.528 +01:00 [INF] Sending file. Request path: '/images/property/6.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/6.jpg'
+2023-11-06 11:32:01.528 +01:00 [INF] Sending file. Request path: '/images/property/5.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/5.jpg'
+2023-11-06 11:32:01.529 +01:00 [INF] Sending file. Request path: '/images/property/4.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/4.jpg'
+2023-11-06 11:32:01.529 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/5.jpg - - - 200 129139 image/jpeg 62.1131ms
+2023-11-06 11:32:01.529 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/4.jpg - - - 200 143954 image/jpeg 62.1962ms
+2023-11-06 11:32:01.529 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/6.jpg - - - 200 72579 image/jpeg 62.0628ms
+2023-11-06 11:32:01.537 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/7.jpg - -
+2023-11-06 11:32:01.612 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/10.jpg - -
+2023-11-06 11:32:01.613 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/8.jpg - -
+2023-11-06 11:32:01.613 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/11.jpg - -
+2023-11-06 11:32:01.680 +01:00 [INF] Sending file. Request path: '/images/property/7.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/7.jpg'
+2023-11-06 11:32:01.680 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/9.jpg - -
+2023-11-06 11:32:01.680 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/7.jpg - - - 200 51822 image/jpeg 142.7279ms
+2023-11-06 11:32:01.722 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/13.jpg - -
+2023-11-06 11:32:01.724 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/12.jpg - -
+2023-11-06 11:32:01.746 +01:00 [INF] Sending file. Request path: '/images/property/10.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/10.jpg'
+2023-11-06 11:32:01.769 +01:00 [INF] Sending file. Request path: '/images/property/8.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/8.jpg'
+2023-11-06 11:32:01.769 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/8.jpg - - - 200 32645 image/jpeg 156.4434ms
+2023-11-06 11:32:01.769 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/10.jpg - - - 200 36985 image/jpeg 156.3556ms
+2023-11-06 11:32:01.771 +01:00 [INF] Sending file. Request path: '/images/property/11.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/11.jpg'
+2023-11-06 11:32:01.772 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/11.jpg - - - 200 33122 image/jpeg 159.4338ms
+2023-11-06 11:32:01.910 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/15.jpg - -
+2023-11-06 11:32:01.931 +01:00 [INF] Sending file. Request path: '/images/property/13.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/13.jpg'
+2023-11-06 11:32:01.931 +01:00 [INF] Sending file. Request path: '/images/property/9.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/9.jpg'
+2023-11-06 11:32:01.931 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/9.jpg - - - 200 88396 image/jpeg 251.9099ms
+2023-11-06 11:32:01.910 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/14.jpg - -
+2023-11-06 11:32:01.931 +01:00 [INF] Sending file. Request path: '/images/property/12.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/12.jpg'
+2023-11-06 11:32:01.932 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/12.jpg - - - 200 26810 image/jpeg 208.1219ms
+2023-11-06 11:32:01.931 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/13.jpg - - - 200 104441 image/jpeg 209.0301ms
+2023-11-06 11:32:01.932 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/16.jpg - -
+2023-11-06 11:32:01.979 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/19.jpg - -
+2023-11-06 11:32:01.979 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/17.jpg - -
+2023-11-06 11:32:01.979 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/18.jpg - -
+2023-11-06 11:32:02.011 +01:00 [INF] Sending file. Request path: '/images/property/16.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/16.jpg'
+2023-11-06 11:32:02.012 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/16.jpg - - - 200 24679 image/jpeg 79.3898ms
+2023-11-06 11:32:02.015 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/20.jpg - -
+2023-11-06 11:32:02.017 +01:00 [INF] Sending file. Request path: '/images/property/14.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/14.jpg'
+2023-11-06 11:32:02.019 +01:00 [INF] Sending file. Request path: '/images/property/18.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/18.jpg'
+2023-11-06 11:32:02.019 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/14.jpg - - - 200 50869 image/jpeg 150.5435ms
+2023-11-06 11:32:02.019 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/18.jpg - - - 200 21272 image/jpeg 39.7100ms
+2023-11-06 11:32:02.019 +01:00 [INF] Sending file. Request path: '/images/property/17.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/17.jpg'
+2023-11-06 11:32:02.020 +01:00 [INF] Sending file. Request path: '/images/property/15.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/15.jpg'
+2023-11-06 11:32:02.021 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/17.jpg - - - 200 191507 image/jpeg 40.5725ms
+2023-11-06 11:32:02.041 +01:00 [INF] Sending file. Request path: '/images/property/20.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/20.jpg'
+2023-11-06 11:32:02.041 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/22.jpg - -
+2023-11-06 11:32:02.041 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/15.jpg - - - 200 26388 image/jpeg 152.9541ms
+2023-11-06 11:32:02.041 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/20.jpg - - - 200 23107 image/jpeg 26.2924ms
+2023-11-06 11:32:02.041 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/24.jpg - -
+2023-11-06 11:32:02.042 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/21.jpg - -
+2023-11-06 11:32:02.041 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/23.jpg - -
+2023-11-06 11:32:02.046 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/images/property/25.jpg - -
+2023-11-06 11:32:02.048 +01:00 [INF] Sending file. Request path: '/images/property/24.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/24.jpg'
+2023-11-06 11:32:02.048 +01:00 [INF] Sending file. Request path: '/images/property/19.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/19.jpg'
+2023-11-06 11:32:02.050 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/19.jpg - - - 200 184552 image/jpeg 71.2267ms
+2023-11-06 11:32:02.050 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/24.jpg - - - 200 52351 image/jpeg 8.7588ms
+2023-11-06 11:32:02.077 +01:00 [INF] Sending file. Request path: '/images/property/22.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/22.jpg'
+2023-11-06 11:32:02.077 +01:00 [INF] Sending file. Request path: '/images/property/23.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/23.jpg'
+2023-11-06 11:32:02.119 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/23.jpg - - - 200 53635 image/jpeg 77.6267ms
+2023-11-06 11:32:02.119 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/22.jpg - - - 200 30001 image/jpeg 77.6271ms
+2023-11-06 11:32:02.120 +01:00 [INF] Sending file. Request path: '/images/property/25.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/25.jpg'
+2023-11-06 11:32:02.166 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/25.jpg - - - 200 64848 image/jpeg 95.0820ms
+2023-11-06 11:32:02.167 +01:00 [INF] Sending file. Request path: '/images/property/21.jpg'. Physical path: '/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/21.jpg'
+2023-11-06 11:32:02.167 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/images/property/21.jpg - - - 200 115613 image/jpeg 125.7315ms

@@ -1,0 +1,389 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/obj/Debug/net7.0/scopedcss/projectbundle/FjordNestPro.bundle.scp.css",
+      "PackagePath": "staticwebassets/FjordNestPro.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/Fjord.jpg",
+      "PackagePath": "staticwebassets/images/Fjord.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/Logo.png.png",
+      "PackagePath": "staticwebassets/images/Logo.png.png"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/binoculars.svg.svg",
+      "PackagePath": "staticwebassets/images/binoculars.svg.svg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/fjordnest-high-resolution-logo-white-transparent.png",
+      "PackagePath": "staticwebassets/images/fjordnest-high-resolution-logo-white-transparent.png"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/1.jpg",
+      "PackagePath": "staticwebassets/images/property/1.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/10.jpg",
+      "PackagePath": "staticwebassets/images/property/10.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/11.jpg",
+      "PackagePath": "staticwebassets/images/property/11.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/12.jpg",
+      "PackagePath": "staticwebassets/images/property/12.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/13.jpg",
+      "PackagePath": "staticwebassets/images/property/13.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/14.jpg",
+      "PackagePath": "staticwebassets/images/property/14.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/15.jpg",
+      "PackagePath": "staticwebassets/images/property/15.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/16.jpg",
+      "PackagePath": "staticwebassets/images/property/16.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/17.jpg",
+      "PackagePath": "staticwebassets/images/property/17.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/18.jpg",
+      "PackagePath": "staticwebassets/images/property/18.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/19.jpg",
+      "PackagePath": "staticwebassets/images/property/19.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/2.jpg",
+      "PackagePath": "staticwebassets/images/property/2.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/20.jpg",
+      "PackagePath": "staticwebassets/images/property/20.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/21.jpg",
+      "PackagePath": "staticwebassets/images/property/21.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/22.jpg",
+      "PackagePath": "staticwebassets/images/property/22.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/23.jpg",
+      "PackagePath": "staticwebassets/images/property/23.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/24.jpg",
+      "PackagePath": "staticwebassets/images/property/24.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/25.jpg",
+      "PackagePath": "staticwebassets/images/property/25.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/3.jpg",
+      "PackagePath": "staticwebassets/images/property/3.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/4.jpg",
+      "PackagePath": "staticwebassets/images/property/4.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/5.jpg",
+      "PackagePath": "staticwebassets/images/property/5.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/6.jpg",
+      "PackagePath": "staticwebassets/images/property/6.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/7.jpg",
+      "PackagePath": "staticwebassets/images/property/7.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/8.jpg",
+      "PackagePath": "staticwebassets/images/property/8.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/images/property/9.jpg",
+      "PackagePath": "staticwebassets/images/property/9.jpg"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/henrik_vik/Projects/FjordNest/FjordNestPro/wwwroot/uploads/.DS_Store",
+      "PackagePath": "staticwebassets/uploads/.DS_Store"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.FjordNestPro.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.FjordNestPro.props",
+      "PackagePath": "build\\FjordNestPro.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.FjordNestPro.props",
+      "PackagePath": "buildMultiTargeting\\FjordNestPro.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.FjordNestPro.props",
+      "PackagePath": "buildTransitive\\FjordNestPro.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

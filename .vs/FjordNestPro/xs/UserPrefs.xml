@@ -1,0 +1,67 @@
+﻿<Properties StartupConfiguration="{755BFBD9-D8E8-4D98-ABC7-50BAE8CBC283}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FjordNestPro PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FjordNestPro/README.txt">
+    <Files>
+      <File FileName="FjordNestPro/Models/SeedData.cs" />
+      <File FileName="FjordNestPro/Program.cs" />
+      <File FileName="FjordNestPro/Controllers/AddressController.cs" />
+      <File FileName="FjordNestPro/Controllers/ApplicationUserController.cs" />
+      <File FileName="FjordNestPro/Controllers/BookingController.cs" />
+      <File FileName="FjordNestPro/Controllers/PropertyController.cs" />
+      <File FileName="FjordNestPro/Views/Question/QuestionList.cshtml" />
+      <File FileName="FjordNestPro/Views/Question/Help.cshtml" />
+      <File FileName="FjordNestPro/Narrative.txt" />
+      <File FileName="FjordNestPro/Areas/Admin/Views/Shared/_Layout.cshtml.css" Line="6" Column="1" />
+      <File FileName="FjordNestPro/README.txt" Line="23" Column="59" />
+      <File FileName="FjordNestPro/Models/Property.cs" Line="41" Column="1" />
+      <File FileName="FjordNestPro/Views/Shared/_Layout.cshtml.css" Line="18" Column="2" />
+      <File FileName="FjordNestPro/Views/Shared/_Layout.cshtml" />
+      <File FileName="FjordNestPro/Views/Home/Index.cshtml.css" />
+      <File FileName="FjordNestPro/Views/Home/Index.cshtml" />
+      <File FileName="FjordNestPro/Models/Address.cs" Line="14" Column="1" />
+      <File FileName="FjordNestPro/Models/ApplicationUser.cs" Line="16" Column="20" />
+      <File FileName="FjordNestPro/Models/Booking.cs" Line="17" Column="20" />
+      <File FileName="FjordNestPro/Models/Question.cs" Line="20" Column="8" />
+      <File FileName="FjordNestPro/Models/Review.cs" Line="18" Column="1" />
+      <File FileName="FjordNestPro/Models/ErrorViewModel.cs" Line="10" Column="1" />
+      <File FileName="FjordNestPro/ScaffoldingReadMe.txt" Line="1" Column="1" />
+      <File FileName="FjordNestPro/Areas/Admin/Views/Shared/_Layout.cshtml" Line="7" Column="80" />
+      <File FileName="FjordNestPro/wwwroot/css/site.css" Line="36" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FjordNestPro">
+            <Node name="FjordNestPro">
+              <Node name="Areas">
+                <Node name="Admin">
+                  <Node name="Views">
+                    <Node name="Shared">
+                      <Node name="_Layout.cshtml" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
+              <Node name="README.txt" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

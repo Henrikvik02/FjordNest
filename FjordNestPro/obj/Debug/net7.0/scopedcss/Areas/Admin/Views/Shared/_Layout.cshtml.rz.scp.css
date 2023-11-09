@@ -1,4 +1,4 @@
-﻿.flex-container {
+.flex-container[b-p1nbdvj13k] {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -7,22 +7,22 @@
 
 
 
-main {
+main[b-p1nbdvj13k] {
     flex: 1;
     margin-top: 100px; /* Juster denne verdien basert på høyden av din header. */
     padding-bottom: 150px;
 }
 
-.container {
+.container[b-p1nbdvj13k] {
     margin-bottom: 100px; /* Juster denne verdien etter behov */
 }
 
-footer {
+footer[b-p1nbdvj13k] {
     margin-top: 50px; /* Juster denne verdien etter behov */
 }
 
 
-body {
+body[b-p1nbdvj13k] {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
@@ -34,7 +34,7 @@ body {
 }
 
 
-    body::before {
+    body[b-p1nbdvj13k]::before {
         content: "";
         position: absolute;
         top: 0;
@@ -45,7 +45,7 @@ body {
         z-index: -1;
     }
 
-header {
+header[b-p1nbdvj13k] {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,18 +60,18 @@ header {
 }
 
 
-.review-text {
+.review-text[b-p1nbdvj13k] {
     color: #ffffff;
     padding-bottom: 10px;
     margin-bottom: 10px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-.reviewsBox .review-text:last-child {
+.reviewsBox .review-text:last-child[b-p1nbdvj13k] {
     border-bottom: none;
 }
 
-.reviewsBox {
+.reviewsBox[b-p1nbdvj13k] {
     position: absolute; /* Gjør boksen plassert absolutt i forhold til den nærmeste relativt posisjonerte forfader */
     top: -40px; /* Juster denne verdien for å flytte boksen opp eller ned */
     right: 0;
@@ -91,27 +91,27 @@ header {
 
 
     /* Tilpasset scrollbar for Chrome, Edge og andre Webkit-nettlesere */
-    .reviewsBox::-webkit-scrollbar {
+    .reviewsBox[b-p1nbdvj13k]::-webkit-scrollbar {
         width: 6px;
     }
 
-    .reviewsBox::-webkit-scrollbar-track {
+    .reviewsBox[b-p1nbdvj13k]::-webkit-scrollbar-track {
         background: rgba(0, 0, 0, 0.2);
     }
 
-    .reviewsBox::-webkit-scrollbar-thumb {
+    .reviewsBox[b-p1nbdvj13k]::-webkit-scrollbar-thumb {
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 20px;
         border: 3px solid transparent;
     }
 
-        .reviewsBox::-webkit-scrollbar-thumb:hover {
+        .reviewsBox[b-p1nbdvj13k]::-webkit-scrollbar-thumb:hover {
             background-color: rgba(255, 255, 255, 0.9);
         }
 
 
 
-.intro-text {
+.intro-text[b-p1nbdvj13k] {
     position: absolute;
     top: 35%;
     left: 50%;
@@ -124,30 +124,30 @@ header {
     border-radius: 10px;
 }
 
-    .intro-text h2 {
+    .intro-text h2[b-p1nbdvj13k] {
         margin-top: 0;
         font-size: 2em;
         margin-bottom: 15px;
     }
 
-    .intro-text p {
+    .intro-text p[b-p1nbdvj13k] {
         font-size: 1.2em;
         margin-bottom: 20px;
         line-height: 1.5;
     }
 
 
-#logo img {
+#logo img[b-p1nbdvj13k] {
     height: 50px;
 }
 
-nav {
+nav[b-p1nbdvj13k] {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-    nav a {
+    nav a[b-p1nbdvj13k] {
         text-decoration: none;
         color: #fffbfb;
         font-weight: 700;
@@ -158,11 +158,11 @@ nav {
         transition: color 0.3s;
     }
 
-        nav a:hover {
+        nav a:hover[b-p1nbdvj13k] {
             color: #555;
         }
 
-#listing {
+#listing[b-p1nbdvj13k] {
     padding: 10px 20px;
     background-color: #000;
     color: #fff;
@@ -173,11 +173,11 @@ nav {
     transition: background-color 0.3s;
 }
 
-    #listing:hover {
+    #listing:hover[b-p1nbdvj13k] {
         background-color: #555;
     }
 
-#auth a {
+#auth a[b-p1nbdvj13k] {
     text-decoration: none;
     color: #ffffff;
     font-weight: 700;
@@ -188,15 +188,15 @@ nav {
     transition: color 0.3s;
 }
 
-    #auth a:hover {
+    #auth a:hover[b-p1nbdvj13k] {
         color: #555;
     }
 
-    #auth a svg {
+    #auth a svg[b-p1nbdvj13k] {
         fill: #ffffff;
     }
 
-.nest-button {
+.nest-button[b-p1nbdvj13k] {
     display: block;
     width: fit-content;
     margin: 500px auto 0;
@@ -211,12 +211,12 @@ nav {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-    .nest-button:hover {
+    .nest-button:hover[b-p1nbdvj13k] {
         background-color: #fff;
         color: #000;
     }
 
-.detaljer-button {
+.detaljer-button[b-p1nbdvj13k] {
     display: block;
     width: fit-content;
     margin: 40px auto 0;
@@ -231,51 +231,51 @@ nav {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-    .detaljer-button:hover {
+    .detaljer-button:hover[b-p1nbdvj13k] {
         background-color: #fff;
         color: #000;
     }
 
 
-.card-img-top {
+.card-img-top[b-p1nbdvj13k] {
     height: 200px;
     object-fit: cover;
 }
 
-.card {
+.card[b-p1nbdvj13k] {
     background: rgba(0,0,0,0.5);
     color: #fff;
 }
 
 
-.property-details-container {
+.property-details-container[b-p1nbdvj13k] {
     display: flex;
     align-items: start;
     gap: 20px;
 }
 
-.property-image {
+.property-image[b-p1nbdvj13k] {
     flex: 1;
     max-width: 33%;
 }
 
-.property-text {
+.property-text[b-p1nbdvj13k] {
     color: white;
     flex: 2;
 }
 
-.text-color {
+.text-color[b-p1nbdvj13k] {
     color: white;
 }
 
 
-.auth #auth {
+.auth #auth[b-p1nbdvj13k] {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-    .auth #auth a {
+    .auth #auth a[b-p1nbdvj13k] {
         text-decoration: none;
         color: white;
         display: flex;
@@ -284,20 +284,20 @@ nav {
         padding: 5px 10px;
     }
 
-        .auth #auth a:hover {
+        .auth #auth a:hover[b-p1nbdvj13k] {
             background-color: rgba(0, 0, 0, 0.1);
             border-radius: 4px;
         }
 
-    .auth #auth svg {
+    .auth #auth svg[b-p1nbdvj13k] {
         fill: currentColor;
     }
 
-.address-container {
+.address-container[b-p1nbdvj13k] {
     position: relative;
 }
 
-.action-buttons {
+.action-buttons[b-p1nbdvj13k] {
     position: absolute;
     top: -150px; /* Juster denne verdien til det som passer best */
     right: 0; /* Dette vil plassere knappene til høyre i containeren */
@@ -309,7 +309,7 @@ nav {
 
 
 /* Universell stil for begge knappene */
-.button {
+.button[b-p1nbdvj13k] {
     padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
@@ -324,28 +324,28 @@ nav {
     border: 1px solid transparent;
 }
 
-    .button:hover {
+    .button:hover[b-p1nbdvj13k] {
         opacity: 0.8;
     }
 
     /* Individuell farge for hver knapp */
-    .button.bestill {
+    .button.bestill[b-p1nbdvj13k] {
         background-color: blue;
         color: #fff;
     }
 
-    .button.anmeldelser {
+    .button.anmeldelser[b-p1nbdvj13k] {
         background-color: rgba(255, 255, 255, 0.1);
         color: #fff;
         border-color: #fff;
     }
 
 
-        .button.anmeldelser:hover {
+        .button.anmeldelser:hover[b-p1nbdvj13k] {
             background-color: #fff;
             color: #000;
         }
 
-#tabletextstyle {
+#tabletextstyle[b-p1nbdvj13k] {
     color: white;
 }

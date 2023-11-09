@@ -1,0 +1,50 @@
+2023-11-09 12:37:50.018 +01:00 [INF] User profile is available. Using '/Users/henrik_vik/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-09 12:37:53.341 +01:00 [INF] Now listening on: https://localhost:7060
+2023-11-09 12:37:53.344 +01:00 [INF] Now listening on: http://localhost:5035
+2023-11-09 12:37:53.410 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-09 12:37:53.413 +01:00 [INF] Hosting environment: Development
+2023-11-09 12:37:53.416 +01:00 [INF] Content root path: /Users/henrik_vik/Projects/FjordNest/FjordNestPro
+2023-11-09 12:37:54.806 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/ - -
+2023-11-09 12:37:54.915 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-09 12:37:54.932 +01:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FjordNestPro.Controllers.HomeController (FjordNestPro).
+2023-11-09 12:37:55.053 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-09 12:37:55.289 +01:00 [INF] Executed ViewResult - view Index executed in 238.1938ms.
+2023-11-09 12:37:55.293 +01:00 [INF] Executed action FjordNestPro.Controllers.HomeController.Index (FjordNestPro) in 360.4515ms
+2023-11-09 12:37:55.293 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-09 12:37:55.311 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/ - - - 200 - text/html;+charset=utf-8 509.1281ms
+2023-11-09 12:37:55.314 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-09 12:37:55.317 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-09 12:37:55.327 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 12.9763ms
+2023-11-09 12:37:55.327 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 9.7284ms
+2023-11-09 12:37:55.385 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-09 12:37:55.480 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 95.2987ms
+2023-11-09 12:37:59.635 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Admin - -
+2023-11-09 12:37:59.648 +01:00 [INF] Executing endpoint 'FjordNestPro.Areas.Admin.Controllers.AdminController.Index (FjordNestPro)'
+2023-11-09 12:37:59.651 +01:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Admin", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller FjordNestPro.Areas.Admin.Controllers.AdminController (FjordNestPro).
+2023-11-09 12:37:59.655 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-09 12:37:59.696 +01:00 [INF] Executed ViewResult - view Index executed in 43.6245ms.
+2023-11-09 12:37:59.697 +01:00 [INF] Executed action FjordNestPro.Areas.Admin.Controllers.AdminController.Index (FjordNestPro) in 45.5877ms
+2023-11-09 12:37:59.697 +01:00 [INF] Executed endpoint 'FjordNestPro.Areas.Admin.Controllers.AdminController.Index (FjordNestPro)'
+2023-11-09 12:37:59.697 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Admin - - - 200 - text/html;+charset=utf-8 61.8986ms
+2023-11-09 12:37:59.718 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-09 12:37:59.719 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 1.0336ms
+2023-11-09 12:37:59.722 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-09 12:37:59.722 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-09 12:37:59.723 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.9546ms
+2023-11-09 12:37:59.723 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.9722ms
+2023-11-09 12:38:03.232 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Admin/Address - -
+2023-11-09 12:38:03.236 +01:00 [INF] Executing endpoint 'FjordNestPro.Areas.Admin.Controllers.AddressController.Index (FjordNestPro)'
+2023-11-09 12:38:03.249 +01:00 [INF] Route matched with {area = "Admin", action = "Index", controller = "Address", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String) on controller FjordNestPro.Areas.Admin.Controllers.AddressController (FjordNestPro).
+2023-11-09 12:38:03.298 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-09 12:38:03.386 +01:00 [INF] Executed ViewResult - view Index executed in 88.7936ms.
+2023-11-09 12:38:03.387 +01:00 [INF] Executed action FjordNestPro.Areas.Admin.Controllers.AddressController.Index (FjordNestPro) in 137.4925ms
+2023-11-09 12:38:03.387 +01:00 [INF] Executed endpoint 'FjordNestPro.Areas.Admin.Controllers.AddressController.Index (FjordNestPro)'
+2023-11-09 12:38:03.387 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Admin/Address - - - 200 - text/html;+charset=utf-8 154.9965ms
+2023-11-09 12:38:03.401 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-09 12:38:03.402 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 0.9791ms
+2023-11-09 12:38:03.405 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-09 12:38:03.405 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-09 12:38:03.405 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Admin/images/Logo.png.png - -
+2023-11-09 12:38:03.405 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.7492ms
+2023-11-09 12:38:03.405 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.7118ms
+2023-11-09 12:38:03.408 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Admin/images/Logo.png.png - - - 404 0 - 2.7048ms

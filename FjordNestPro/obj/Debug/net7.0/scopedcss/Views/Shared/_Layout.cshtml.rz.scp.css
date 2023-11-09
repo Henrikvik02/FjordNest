@@ -1,0 +1,85 @@
+body[b-to7f8yxv0p] {
+    font-family: 'Roboto', sans-serif; /* Endret skrifttype */
+    background-color: #f6f6f6; /* Bakgrunnsfarge for litt kontrast */
+}
+
+header[b-to7f8yxv0p] {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+#logo img[b-to7f8yxv0p] {
+    max-width: 200px;
+    height: auto;
+}
+
+nav a[b-to7f8yxv0p] {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #484848;
+    transition: color 0.3s; /* Legg til overgang for en jevn fargeendring */
+}
+
+    nav a:hover[b-to7f8yxv0p] {
+        color: #95cdf8; /* Hover-farge for lenker */
+    }
+
+
+#auth a[b-to7f8yxv0p] {
+    margin-left: 15px;
+    text-decoration: none;
+    color: #484848;
+}
+
+    #auth a:hover[b-to7f8yxv0p] {
+        color: #95cdf8; /* Hover-farge for lenker i #auth */
+    }
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    header[b-to7f8yxv0p] {
+        flex-direction: column;
+        padding: 10px 20px;
+    }
+
+    nav[b-to7f8yxv0p] {
+        margin-top: 10px;
+    }
+
+        nav a[b-to7f8yxv0p] {
+            margin: 0 5px;
+        }
+
+    #auth[b-to7f8yxv0p] {
+        margin-top: 10px;
+    }
+
+        #auth a[b-to7f8yxv0p] {
+            margin-left: 5px;
+        }
+
+    .search-bar[b-to7f8yxv0p] {
+        margin: 20px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #logo[b-to7f8yxv0p] {
+        font-size: 20px;
+    }
+
+    nav a[b-to7f8yxv0p] {
+        font-size: 14px;
+    }
+
+    #listing[b-to7f8yxv0p], #auth a[b-to7f8yxv0p] {
+        font-size: 14px;
+        padding: 8px 10px;
+    }
+}

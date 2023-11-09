@@ -1,0 +1,78 @@
+2023-11-03 15:03:28.945 +01:00 [INF] User profile is available. Using '/Users/henrik_vik/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2023-11-03 15:03:32.272 +01:00 [INF] Now listening on: https://localhost:7060
+2023-11-03 15:03:32.276 +01:00 [INF] Now listening on: http://localhost:5035
+2023-11-03 15:03:32.291 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-03 15:03:32.294 +01:00 [INF] Hosting environment: Development
+2023-11-03 15:03:32.297 +01:00 [INF] Content root path: /Users/henrik_vik/Projects/Hobbyprosjekt_FjordNest/FjordNestPro
+2023-11-03 15:03:33.864 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/ - -
+2023-11-03 15:03:33.972 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:33.978 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-03 15:03:33.997 +01:00 [INF] Route matched with {action = "Index", controller = "Home", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller FjordNestPro.Controllers.HomeController (FjordNestPro).
+2023-11-03 15:03:34.018 +01:00 [INF] Executing ViewResult, running view Index.
+2023-11-03 15:03:34.259 +01:00 [INF] Executed ViewResult - view Index executed in 244.3475ms.
+2023-11-03 15:03:34.263 +01:00 [INF] Executed action FjordNestPro.Controllers.HomeController.Index (FjordNestPro) in 264.888ms
+2023-11-03 15:03:34.263 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.HomeController.Index (FjordNestPro)'
+2023-11-03 15:03:34.271 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/ - - - 200 - text/html;+charset=utf-8 413.5531ms
+2023-11-03 15:03:34.313 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-03 15:03:34.318 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-03 15:03:34.324 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:34.324 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:34.325 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 7.2841ms
+2023-11-03 15:03:34.325 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 11.8851ms
+2023-11-03 15:03:34.412 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-03 15:03:34.442 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:34.443 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 35.5479ms
+2023-11-03 15:03:38.138 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Question/Help - -
+2023-11-03 15:03:38.141 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:38.141 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.QuestionController.Help (FjordNestPro)'
+2023-11-03 15:03:38.144 +01:00 [INF] Route matched with {action = "Help", controller = "Question", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Help() on controller FjordNestPro.Controllers.QuestionController (FjordNestPro).
+2023-11-03 15:03:38.148 +01:00 [INF] Executing ViewResult, running view Help.
+2023-11-03 15:03:38.170 +01:00 [INF] Executed ViewResult - view Help executed in 24.0145ms.
+2023-11-03 15:03:38.170 +01:00 [INF] Executed action FjordNestPro.Controllers.QuestionController.Help (FjordNestPro) in 25.897ms
+2023-11-03 15:03:38.171 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.QuestionController.Help (FjordNestPro)'
+2023-11-03 15:03:38.171 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Question/Help - - - 200 - text/html;+charset=utf-8 33.0736ms
+2023-11-03 15:03:38.198 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-03 15:03:38.198 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:38.199 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 0.9149ms
+2023-11-03 15:03:38.201 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-03 15:03:38.201 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-03 15:03:38.202 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:38.202 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:38.202 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.7272ms
+2023-11-03 15:03:38.202 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.7098ms
+2023-11-03 15:03:40.099 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Question/Create - -
+2023-11-03 15:03:40.102 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:40.103 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.QuestionController.Create (FjordNestPro)'
+2023-11-03 15:03:40.104 +01:00 [INF] Route matched with {action = "Create", controller = "Question", area = "", page = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Create() on controller FjordNestPro.Controllers.QuestionController (FjordNestPro).
+2023-11-03 15:03:40.105 +01:00 [INF] Executing ViewResult, running view Create.
+2023-11-03 15:03:40.185 +01:00 [INF] Executed ViewResult - view Create executed in 80.9027ms.
+2023-11-03 15:03:40.186 +01:00 [INF] Executed action FjordNestPro.Controllers.QuestionController.Create (FjordNestPro) in 81.8409ms
+2023-11-03 15:03:40.186 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.QuestionController.Create (FjordNestPro)'
+2023-11-03 15:03:40.186 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Question/Create - - - 200 - text/html;+charset=utf-8 86.5393ms
+2023-11-03 15:03:40.209 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-03 15:03:40.210 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:40.210 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 1.4443ms
+2023-11-03 15:03:40.213 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-03 15:03:40.213 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-03 15:03:40.214 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:40.214 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:40.214 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.7571ms
+2023-11-03 15:03:40.214 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.6752ms
+2023-11-03 15:03:42.457 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/Question/QuestionList - -
+2023-11-03 15:03:42.457 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:42.457 +01:00 [INF] Executing endpoint 'FjordNestPro.Controllers.QuestionController.QuestionList (FjordNestPro)'
+2023-11-03 15:03:42.461 +01:00 [INF] Route matched with {action = "QuestionList", controller = "Question", area = "", page = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] QuestionList() on controller FjordNestPro.Controllers.QuestionController (FjordNestPro).
+2023-11-03 15:03:42.521 +01:00 [INF] Executing ViewResult, running view QuestionList.
+2023-11-03 15:03:42.544 +01:00 [INF] Executed ViewResult - view QuestionList executed in 24.3219ms.
+2023-11-03 15:03:42.545 +01:00 [INF] Executed action FjordNestPro.Controllers.QuestionController.QuestionList (FjordNestPro) in 83.0289ms
+2023-11-03 15:03:42.545 +01:00 [INF] Executed endpoint 'FjordNestPro.Controllers.QuestionController.QuestionList (FjordNestPro)'
+2023-11-03 15:03:42.551 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/Question/QuestionList - - - 200 - text/html;+charset=utf-8 94.1498ms
+2023-11-03 15:03:42.574 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - -
+2023-11-03 15:03:42.575 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:42.575 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/bootstrap/js/bootstrap.js - - - 404 0 - 1.3742ms
+2023-11-03 15:03:42.577 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - -
+2023-11-03 15:03:42.577 +01:00 [INF] Request starting HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - -
+2023-11-03 15:03:42.577 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:42.577 +01:00 [INF] Identity.Application was not authenticated. Failure message: Unprotect ticket failed
+2023-11-03 15:03:42.578 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery/jquery.js - - - 404 0 - 0.6467ms
+2023-11-03 15:03:42.578 +01:00 [INF] Request finished HTTP/1.1 GET https://localhost:7060/lib/jquery-validate/jquery.validate.js - - - 404 0 - 0.6556ms

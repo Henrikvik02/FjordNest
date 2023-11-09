@@ -17,7 +17,7 @@ namespace FjordNestPro.Models
         public required int AddressID { get; set; }
         public virtual Address? Address { get; set; }
 
-        [Required]
+        [Required] //Requiered
         [MaxLength(255)]
         public required string Title { get; set; }
 
