@@ -24,6 +24,9 @@ Sjøutsikt, a bustling city, is now home to the FjordNestPro rental platform.
 The platform, developed using ASP.NET Identity, offers an organized interface 
 for property listings, user roles, bookings, and reviews.
 
+For report:
+https://www.dropbox.com/scl/fi/thpda3qwmt8qu4aw0bfv3/Report-of-FjordNest.pdf?rlkey=1x8oqrtjphhnmekdpzf0to3eb&dl=0
+
 ==============================================================================
 2. ARCHITECTURE
 ------------------------------------------------------------------------------
